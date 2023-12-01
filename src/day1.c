@@ -4,30 +4,17 @@
 #include <stdio.h>
 #include <string.h>
 
-//const char *input = "1abc2\n"
-//                    "pqr3stu8vwx\n"
-//                    "a1b2c3d4e5f\n"
-//                    "treb7uchet\n";
-
-//const char *input = "two1nine\n"
-//                    "eightwothree\n"
-//                    "abcone2threexyz\n"
-//                    "xtwone3four\n"
-//                    "4nineeightseven2\n"
-//                    "zoneight234\n"
-//                    "7pqrstsixteen\n";
-  
 int main()
 {
 
     const char *input = read_input("input/day1.txt");
     size_t input_size = strlen(input);
 
-#if 0
     int first_digit = -1;
     int last_digit = -1;
     int sum = 0;
 
+#if 0
     for (size_t i = 0; i < input_size; i++) {
         char c = input[i];  
 
@@ -55,10 +42,6 @@ int main()
 
     }
 #else
-    int first_digit = -1;
-    int last_digit = -1;
-    int sum = 0;
-    int line = 1;
    
     /* keep track of what digits are spelled out */
     int digit_idx[10] = {0};
@@ -74,7 +57,6 @@ int main()
         /* c is new line or null byte */
         if (c == '\n' || c == '\r' || c == '\0') {
             sum += first_digit * 10 + last_digit;
-            //printf("%d => first = %d, last = %d\n", line++, first_digit, last_digit);
 
             /* reset stuff */
             first_digit = -1;
