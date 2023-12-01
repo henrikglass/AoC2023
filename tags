@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/henrik/dev/AoC2023/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AOC_UTIL_H	include/aoc_util.h	/^#define AOC_UTIL_H$/;"	d
+AoC2023	README.md	/^# AoC2023/;"	c
+HGL_NEAT_H	include/hgl_neat.h	/^#define HGL_NEAT_H$/;"	d
+TRANSMUTE	include/hgl_neat.h	/^#define TRANSMUTE(/;"	d
+TRY	include/hgl_neat.h	/^#define TRY(/;"	d
+WARNINGS	makefile	/^WARNINGS := -Wall -Wextra -Wpedantic$/;"	m
+clean	makefile	/^clean:$/;"	t
+day1	makefile	/^day1:$/;"	t
+f32	include/hgl_neat.h	/^typedef float    f32;$/;"	t	typeref:typename:float
+f64	include/hgl_neat.h	/^typedef double   f64;$/;"	t	typeref:typename:double
+i16	include/hgl_neat.h	/^typedef int16_t  i16;$/;"	t	typeref:typename:int16_t
+i32	include/hgl_neat.h	/^typedef int32_t  i32;$/;"	t	typeref:typename:int32_t
+i64	include/hgl_neat.h	/^typedef int64_t  i64;$/;"	t	typeref:typename:int64_t
+i8	include/hgl_neat.h	/^typedef int8_t    i8;$/;"	t	typeref:typename:int8_t
+main	src/day1.c	/^int main()$/;"	f	typeref:typename:int
+read_input	include/aoc_util.h	/^static inline char *read_input(const char *path)$/;"	f	typeref:typename:char *
+show_build_info	include/hgl_neat.h	/^static inline void show_build_info(void)$/;"	f	typeref:typename:void
+u16	include/hgl_neat.h	/^typedef uint16_t u16;$/;"	t	typeref:typename:uint16_t
+u32	include/hgl_neat.h	/^typedef uint32_t u32;$/;"	t	typeref:typename:uint32_t
+u64	include/hgl_neat.h	/^typedef uint64_t u64;$/;"	t	typeref:typename:uint64_t
+u8	include/hgl_neat.h	/^typedef uint8_t   u8;$/;"	t	typeref:typename:uint8_t
