@@ -85,12 +85,10 @@ int main()
                 digit_idx[j]++;
                 if (digit_idx[j] == (int)strlen(digit_str[j])) {
                     digit_idx[j] = 0;
-                    assert(digit == -1);
                     digit = j;
                 }
             }
         } else /* c is digit */ {
-            assert(digit == -1);
             digit = (int) (c - '0');
 
             /* reset all digit indices */
